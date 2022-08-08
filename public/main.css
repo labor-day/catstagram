@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  background-color: dodgerblue;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  justify-content:center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+#new {
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  height: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+#new:hover {
+  background-color: white;
+  border: 2px solid royalblue;
+  color:royalblue;
+  cursor:pointer;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cat-image {
+  border-radius: 20px;
+  margin-top: 50px;
+  width: 500px;
+}
+
+#scoreAndVote {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+
+.score-container {
+  align-items: center;
+  color: black;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+#scoreNumber {
+  margin-left: 10px;
+}
+
+.voting-container {
+  display: flex;
+  align-items: center;
+}
+
+.voteButton {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  margin: 2px;
+  padding: 5px;
+}
+
+.green {
+  background-color:darkgreen;
+  border:2px solid darkgreen;
+  color:white;
+}
+
+.red {
+  background-color: red;
+  border: 2px solid red;
+  color:white;
+}
+
+.green:hover {
+  background-color:white;
+  border:2px solid darkgreen;
+  color:darkgreen;
+  cursor:pointer;
+}
+
+.red:hover {
+  background-color: white;
+  border: 2px solid red;
+  color:red;
+  cursor:pointer;
+}
+
+.comment-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:10px;
+  position: relative;
+}
+
+#comment-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+#commentButtonContainer {
+  display: flex;
+  justify-content: end;
+  margin: 5px;
+  width: 100%;
+}
+
+#commentButton {
+  background-color: royalblue;
+  border: 2px solid royalblue;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+}
+
+#commentButton:hover {
+  border: 2px solid royalblue;
+  background-color: white;
+  color: royalblue;
+  cursor: pointer;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  overflow-y: auto;
+  width: 500px;
+}
+
+.comment {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 5px;
+}
+
+.time {
+  color: darkgrey;
+  font-size: 12px;
+}
