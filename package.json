@@ -1,4 +1,11 @@
 {
   "name": "test-deploy",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "main": "app.js",
+  "engines": {
+    "node": "16.15.0"
+  },
+  "scripts": {
+    "start": "./app.js"
+  }
 }
