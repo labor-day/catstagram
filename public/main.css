@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 500px;
 }
 
 #header {
@@ -60,7 +61,7 @@ body {
 .cat-image {
   border-radius: 20px;
   margin-top: 50px;
-  width: 500px;
+  width: 100%;
 }
 
 #scoreAndVote {
@@ -129,7 +130,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top:10px;
-  position: relative;
+  width: 100%;
 }
 
 #comment-text {
@@ -168,7 +169,7 @@ body {
   flex-direction: column;
   height: 250px;
   overflow-y: auto;
-  width: 500px;
+  width: 100%;
 }
 
 .comment {
@@ -179,4 +180,21 @@ body {
 .time {
   color: darkgrey;
   font-size: 12px;
+}
+
+@media screen and (max-width:500px) {
+
+  #main {
+    width: 100%;
+  }
+
+  #header {
+    font-size: 30px;
+    height: 50px;
+  }
+
+  #new {
+    font-size: 20px;
+  }
+
 }
